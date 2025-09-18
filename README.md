@@ -16,6 +16,7 @@
     stack_deque.append('b')  
     stack_deque.append('c')  
     popped = stack_deque.pop()  # Удаление и получение верхнего элемента (pop)
+    
 
 # C++
     #include <vector>

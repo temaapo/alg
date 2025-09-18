@@ -30,29 +30,22 @@
     
         // Добавление элемента в конец вектора
         my_vector.push_back(6);
+    
+        // Удаление последнего элемента
+        my_vector.pop_back();
+    
+        // Создание стека
+        stack<int> my_stack;
+    
+        // Добавление элементов в стек (push)
+        my_stack.push(10);
+        my_stack.push(20);
+        my_stack.push(30);
+    
+        // Удаление верхнего элемента из стека (pop)
+        my_stack.pop();
+    
     }
-Векторы из STL предоставляют динамические массивы с контролем памяти.
+
 # Java
-    import java.util.ArrayList;
-    import java.util.List;
-    import java.util.Stack;
-
-    public class Main {
-        public static void main(String[] args) {
-        
-            // Создание ArrayList (динамического массива)
-            List<Integer> myList = new ArrayList<>();
-            myList.add(1);  // Добавление элемента
-            myList.add(2);  // Добавление элемента
-            myList.add(3);  // Добавление элемента
-            myList.add(4);  // Добавление элемента
-            myList.add(5);  // Добавление элемента
-        
-            // Добавление элемента в конец списка
-            myList.add(6);
-        
-            // Удаление последнего элемента
-            myList.remove(myList.size() - 1);
-        }
-    }
-
+  

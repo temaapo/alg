@@ -1,27 +1,20 @@
 # Сравнение создания массивов (списков) и организации стеков в Java, Python и C++ (Постников Артем, УИБО-10-24)
 # Python
+    # Создание списка (динамический массив)
+    num = [1, 2, 3, 4, 5]
 
-# Создание списка (массива)
-my_list = [1, 2, 3, 4, 5]
+    # Добавление элементов
+    num.append(6)
 
-# Добавление элемента в конец списка
-my_list.append(6)
+    # Удаление элементов
+    num.pop()
 
-# Удаление последнего элемента
-my_list.pop()
 
-# ===== СОЗДАНИЕ СТЕКА =====
-# Вариант 1: Использование списка как стека
-stack_list = []
-stack_list.append('a')  # Добавление элемента в стек (push)
-stack_list.append('b')  # Добавление элемента в стек (push)
-stack_list.append('c')  # Добавление элемента в стек (push)
-popped = stack_list.pop()  # Удаление и получение верхнего элемента (pop)
+    # Создание стека с помошью deque
 
-# Вариант 2: Использование deque
-from collections import deque
-stack_deque = deque()
-stack_deque.append('a')  # Добавление элемента в стек (push)
-stack_deque.append('b')  # Добавление элемента в стек (push)
-stack_deque.append('c')  # Добавление элемента в стек (push)
-popped = stack_deque.pop()  # Удаление и получение верхнего элемента (pop)
+    from collections import deque
+    stack_deque = deque()
+    stack_deque.append('a')  # Добавление элемента в стек (push)
+    stack_deque.append('b')  
+    stack_deque.append('c')  
+    popped = stack_deque.pop()  # Удаление и получение верхнего элемента (pop)

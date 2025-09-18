@@ -8,10 +8,8 @@
 
     # Удаление элементов
     num.pop()
-
-
+    
     # Создание стека с помошью deque
-
     from collections import deque
     stack_deque = deque()
     stack_deque.append('a')  # Добавление элемента в стек (push)

@@ -58,10 +58,10 @@
             // Создание ArrayList (динамического массива)
             List<Integer> myList = new ArrayList<>();
             myList.add(1);  // Добавление элемента
-            myList.add(2);  // Добавление элемента
-            myList.add(3);  // Добавление элемента
-            myList.add(4);  // Добавление элемента
-            myList.add(5);  // Добавление элемента
+            myList.add(2);  // 
+            myList.add(3);  // 
+            myList.add(4);  // 
+            myList.add(5);  // 
         
             // Добавление элемента в конец списка
             myList.add(6);
